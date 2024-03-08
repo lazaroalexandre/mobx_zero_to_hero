@@ -1,12 +1,12 @@
 # mobx_zero_to_hero
 
-Observables e Actions no Mobx
+Computeds no Mobx
 
 # Descricão
 
-Nesta branch, é usado os conceitos de observables e actions para gerenciar o estado de um contador.
-O observables servem para observar o estado da variável.
-Já os actions servem para gerar uma função qualquer, modificando a variável observada.
+Nesta branch, é usado os conceitos computed para gerenciar o estado dos valores
+de nome e sobrenome, concatenando-os em uma frase.
+O computed é usado para definir getters que retornam valores calculados com base em outras variáveis observáveis, sendo automaticamente atualizados sempre que essas variáveis mudam.
 
 # Dependências
 
