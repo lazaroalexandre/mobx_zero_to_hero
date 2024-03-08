@@ -1,17 +1,20 @@
 # mobx_zero_to_hero
 
-Mobx no Flutter: do Zero ao Avançado
+Observables e Actions no Mobx
 
 # Descricão
 
-Esse projeto tem como finalidade democratizar meus 
-resultados no flutter usando o Mobx.
-A maior parte das branches criadas tem como base os conteúdos
-das aulas do canal [Jacob Moura da Flutterando](https://www.youtube.com/watch?v=kKNIaqZE8CY&list=PLlBnICoI-g-foW-Osr0PlpE1_AD3aItbZ).
-Além disso, o projeto só está disponível para a plataforma web.
-Dessa forma, fique a vontade para analisar, aprender e reutilizar
-vários conceitos dos meus estudos sobre desse grande gerenciador de estado.
+Nesta branch, é usado os conceitos de observables e actions para gerenciar o estado de um contador.
+O observables servem para observar o estado da variável.
+Já os actions servem para gerar uma função qualquer, modificando a variável observada.
 
-# Instalação do Flutter
+# Dependências
 
-https://docs.flutter.dev/get-started/install
+[mobx](https://pub.dev/packages/mobx)
+[flutter_mobx](https://pub.dev/packages/flutter_mobx)
+[mobx_codegen](https://pub.dev/packages/mobx_codegen)
+[build_runner](https://pub.dev/packages/build_runner)
+
+# Execução
+
+flutter run -d chrome
