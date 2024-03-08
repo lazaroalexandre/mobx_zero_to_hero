@@ -10,10 +10,10 @@ Já os actions servem para gerar uma função qualquer, modificando a variável 
 
 # Dependências
 
-[mobx](https://pub.dev/packages/mobx)
-[flutter_mobx](https://pub.dev/packages/flutter_mobx)
-[mobx_codegen](https://pub.dev/packages/mobx_codegen)
-[build_runner](https://pub.dev/packages/build_runner)
+- [mobx](https://pub.dev/packages/mobx)
+- [flutter_mobx](https://pub.dev/packages/flutter_mobx)
+- [mobx_codegen](https://pub.dev/packages/mobx_codegen)
+- [build_runner](https://pub.dev/packages/build_runner)
 
 # Execução
 
