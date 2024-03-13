@@ -1,12 +1,14 @@
 # mobx_zero_to_hero
 
-Observables e Actions no Mobx
+Reactions no Mobx
 
 # Descricão
 
-Nesta branch, é usado os conceitos de observables e actions para gerenciar o estado de um contador.
-O observables servem para observar o estado da variável.
-Já os actions servem para gerar uma função qualquer, modificando a variável observada.
+Nesta branch, é usado os conceitos de reactions para testar a reatividade do mobx.
+O Autoran escuta o contexto e retorna uma função.
+O reaction escuta uma condição e um evento sempre irá ser disparado.
+O when escuta uma condição, porém só dispara um evento uma vez.
+O whenAsync é o mesmo do when normal, mas podendo ser implementado em funções assíncronas.
 
 # Dependências
 
@@ -18,3 +20,4 @@ Já os actions servem para gerar uma função qualquer, modificando a variável 
 # Execução
 
 flutter run -d chrome
+
