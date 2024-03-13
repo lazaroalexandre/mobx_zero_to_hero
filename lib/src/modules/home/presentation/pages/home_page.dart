@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: TextFormField(
+          onChanged: (value) => controller.setFilter(value),
           decoration: const InputDecoration(hintText: "Pesquisar..."),
         ),
         actions: <Widget>[
@@ -29,9 +30,9 @@ class HomePage extends StatelessWidget {
       ),
       body: Observer(builder: (context) {
         return ListView.builder(
-          itemCount: controller.listItens.length,
+          itemCount: controller.listFiltered.length,
           itemBuilder: (_, index) {
-            Todo item = controller.listItens[index];
+            Todo item = controller.listFiltered[index];
             return ItemWidget(
               todo: item,
               removeTodo: () => controller.removeTodo(item));
