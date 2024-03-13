@@ -1,17 +1,22 @@
 # mobx_zero_to_hero
 
-Mobx no Flutter: do Zero ao Avançado
+Todo List Mobx
 
 # Descricão
 
-Esse projeto tem como finalidade democratizar meus 
-resultados no flutter usando o Mobx.
-A maior parte das branches criadas tem como base os conteúdos
-das aulas do canal [Jacob Moura da Flutterando](https://www.youtube.com/watch?v=kKNIaqZE8CY&list=PLlBnICoI-g-foW-Osr0PlpE1_AD3aItbZ).
-Além disso, o projeto só está disponível para a plataforma web.
-Dessa forma, fique a vontade para analisar, aprender e reutilizar
-vários conceitos dos meus estudos sobre desse grande gerenciador de estado.
+Nesta branch, é usado os conceitos de observables, actions e computeds para gerenciar o estado de tarefas.
+Como foi decido não consumir uma api e nem guardar nada localmente, o uso do mobx e no models e no homecontroller foi imprescindível.
+Cada tarefa(Todo) possui um título e um checkbox.
+O usuário poderá criar e excluir de um ObservableList, que é um tipo de lista observavél do mobx.
+Além disso, o usuário poderá marcar e desmarcar os checkboxes das tarefas. Ao marcar cada checkbox é somado mais um e o usuário poderá visualizar a quantidade de tarefas marcadas. 
 
-# Instalação do Flutter
+# Dependências
 
-https://docs.flutter.dev/get-started/install
+- [mobx](https://pub.dev/packages/mobx)
+- [flutter_mobx](https://pub.dev/packages/flutter_mobx)
+- [mobx_codegen](https://pub.dev/packages/mobx_codegen)
+- [build_runner](https://pub.dev/packages/build_runner)
+
+# Execução
+
+flutter run -d chrome
