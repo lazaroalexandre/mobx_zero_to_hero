@@ -1,17 +1,24 @@
 # mobx_zero_to_hero
 
-Mobx no Flutter: do Zero ao Avançado
+Flutter Modular com Mobx
 
 # Descricão
 
-Esse projeto tem como finalidade democratizar meus 
-resultados no flutter usando o Mobx.
-A maior parte das branches criadas tem como base os conteúdos
-das aulas do canal [Jacob Moura da Flutterando](https://www.youtube.com/watch?v=kKNIaqZE8CY&list=PLlBnICoI-g-foW-Osr0PlpE1_AD3aItbZ).
-Além disso, o projeto só está disponível para a plataforma web.
-Dessa forma, fique a vontade para analisar, aprender e reutilizar
-vários conceitos dos meus estudos sobre desse grande gerenciador de estado.
+Nessa branche, foi usado o conceito de modularização do flutter modular em conjunto com o gerenciamento de estado mobx.
+Dessa forma, foi desenvolvido uma aplicação de contador de um valor e navegação entre páginas, sem perder o estado de um store.
+O flutter modular facilita a estrutura do aplicativo em módulos independentes através de rotas, além de carregar toda de inicialização e de injeção de dependencia em um ciclo de bidgns.
+Para saber mais sobre o flutter modular, acesse: 
+https://modular.flutterando.com.br/docs/intro
 
-# Instalação do Flutter
+# Dependências
 
-https://docs.flutter.dev/get-started/install
+- [mobx](https://pub.dev/packages/mobx)
+- [flutter_mobx](https://pub.dev/packages/flutter_mobx)
+- [mobx_codegen](https://pub.dev/packages/mobx_codegen)
+- [build_runner](https://pub.dev/packages/build_runner)
+- [slidy](https://pub.dev/packages/slidy)
+- [flutter_modular](https://pub.dev/packages/flutter_modular)
+
+# Execução
+
+flutter run -d chrome
